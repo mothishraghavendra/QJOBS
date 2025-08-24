@@ -1,6 +1,6 @@
 # Quantum Job Dashboard (QJOBS)
 
-[![CI](https://github.com/YOUR_USERNAME/quantum-job-dashboard/workflows/Quantum%20Job%20Dashboard%20CI/badge.svg)](https://github.com/YOUR_USERNAME/quantum-job-dashboard/actions)
+[![CI](https://github.com/mothishraghavendra/QJOBS/workflows/Quantum%20Job%20Dashboard%20CI/badge.svg)](https://github.com/mothishraghavendra/QJOBS/actions)
 [![Django](https://img.shields.io/badge/Django-5.2-green.svg)](https://www.djangoproject.com/)
 [![React](https://img.shields.io/badge/React-18-blue.svg)](https://reactjs.org/)
 [![Qiskit](https://img.shields.io/badge/Qiskit-Latest-purple.svg)](https://qiskit.org/)
