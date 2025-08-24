@@ -28,6 +28,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install Django djangorestframework django-cors-headers pillow qiskit matplotlib
         
+    - name: Create static directory
+      run: mkdir -p static
+        
     - name: Run Django migrations and tests
       run: |
         python manage.py migrate
@@ -51,7 +54,7 @@ jobs:
     - name: Install frontend dependencies
       run: |
         cd frontend
-        npm ci
+        npm install
         
     - name: Run React tests
       run: |
