@@ -9,7 +9,6 @@ import {
   Button,
   Switch,
   FormControlLabel,
-  Divider,
   Avatar,
   FormControl,
   InputLabel,

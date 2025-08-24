@@ -1,27 +1,6 @@
 import React from 'react';
 import { Grid, Card, CardContent, Typography, Box } from '@mui/material';
 
-const jobStatusCards = [
-  {
-    title: 'Running',
-    value: 5,
-    color: '#4caf50',
-    borderColor: '#4caf50',
-  },
-  {
-    title: 'Completed',
-    value: 12,
-    color: '#2196f3',
-    borderColor: '#2196f3',
-  },
-  {
-    title: 'Queued',
-    value: 8,
-    color: '#ff9800',
-    borderColor: '#ff9800',
-  },
-];
-
 function JobOverviewCards({ stats = {} }) {
   const cardData = [
     {

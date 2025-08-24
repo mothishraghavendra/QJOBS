@@ -1,25 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import {
   Box,
   Grid,
-  Card,
-  CardContent,
   Typography,
-  LinearProgress,
-  TextField,
-  Button,
-  Avatar,
-  Chip,
 } from '@mui/material';
-import {
-  LineChart,
-  Line,
-  XAxis,
-  YAxis,
-  ResponsiveContainer,
-  BarChart,
-  Bar,
-} from 'recharts';
 import JobOverviewCards from './JobOverviewCards';
 import ActivityChart from './ActivityChart';
 import JobDetails from './JobDetails';
@@ -55,7 +39,7 @@ const sampleData = {
 };
 
 function Dashboard() {
-  const [data, setData] = useState(sampleData);
+  const [data] = useState(sampleData);
 
   return (
     <Box sx={{ flexGrow: 1 }}>

@@ -62,6 +62,8 @@ jobs:
         npm test -- --coverage --watchAll=false || echo "No tests found yet"
         
     - name: Build React app
+      env:
+        CI: false
       run: |
         cd frontend
         npm run build

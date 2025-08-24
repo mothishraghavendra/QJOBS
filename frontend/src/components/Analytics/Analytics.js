@@ -6,7 +6,7 @@ import {
   CardContent,
   Grid,
 } from '@mui/material';
-import { LineChart, Line, XAxis, YAxis, ResponsiveContainer, BarChart, Bar, PieChart, Pie, Cell } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 
 // Sample analytics data
 const weeklyJobsData = [
